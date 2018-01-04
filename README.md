@@ -1,9 +1,9 @@
 # WKContentRuleExample
 **Usage of WKContentRule to block content on WKWebView**
 
-###Since iOS 11 you can use WKContentRuleList
+### Since iOS 11 you can use WKContentRuleList
 
-##Define the rules
+## Define the rules
 First, create a **Content Rule** or a list. Each rule is comprised of a trigger and an action. See [Apple's Documentation on Content Rule creation](https://developer.apple.com/library/content/documentation/Extensions/Conceptual/ContentBlockingRules/CreatingRules/CreatingRules.html)
 
 This is a creation example, blocks all image and Style Sheet content, but allows those ended on jpeg by way of ignoring the previous rules:
@@ -37,7 +37,7 @@ This is a creation example, blocks all image and Style Sheet content, but allows
          }]
       """        
 
-##Add the rules to your WKWebView
+## Add the rules to your WKWebView
 Having your list of rules, you can add them to the **ContentRuleListStore**
 
     import WebKit
